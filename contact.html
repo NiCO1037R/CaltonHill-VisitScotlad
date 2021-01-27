@@ -1,0 +1,142 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="Website with Ruth" content="width=device-width, initial scale 1.0">
+  <title>Contact page</title>	<!-- beginning of navbar and bootstrap link-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./styles/contact.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+<a class="navbar-brand"><img src="./content/caltonhilllogo.png">
+  <a class="navbar-brand" href="https:http://www.edinburghcollege.ac.uk/newsandevents/glow-goes-virtual-for-2020/">GLOW Link</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-active">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+      <li class="nav-active">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+      </ul>
+    </div>
+    </a>
+    </nav>
+<!-- beginning of contact form -->
+<main class="container">
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="First Name" required>
+      <div class="valid-feedback">
+        Please choose First Name!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Last Name" required>
+      <div class="valid-feedback">
+        Please choose Last Name!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-12 mb-8">
+      <label for="validationCustom03">Mesage</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Mesage" required>
+      <div class="invalid-feedback">
+        Please type you'r message.
+      </div>
+    </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <main class="container">
+  <button class="btn btn-primary" type="submit">Submit Contact Form</button>
+      <form action="mailto:ec1928035@edinburghcollege.ac.uk" method="post" enctype="text">
+
+<script>
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    var forms = document.getElementsByClassName('needs-validation');
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+    </script>
+    </form>
+    <!-- begining of 8-4 columns -->
+<div class="container">
+  <div class="row">
+    <div class="col-7">
+        <h3>Edinburgh College GLOW Festival</h3>
+	<strong>Photoshoot</strong>
+	 <img src="./content/glowphoto.jpg" class="img-fluid" alt="Responsive image">
+        <p>Photo made by Nathan Ross/Sandra Garcia</p>
+        <p></p>
+    </div>
+    <div class="col-5">
+	<h3>Calton Hill Photos</h3>
+	<strong>Photos made and edited by Nico Raducanu</strong>
+	 <img src="./content/chselfie.jpg" class="img-fluid" alt="Responsive image">
+        <p>Models there were needed to participate a photoshoot for GLOW Festival posters and advertising. During a class, the lecturer asked if anyone wants to volunteer to take part. Photoshoot successfully toked place at Sighthill Campus. Around four hours me and all participants being happy with huge smiles on our faces the whole time of this amazing experience. Unfortunately, due to restrictions GLOW festival organized and hosted by Edinburgh College had to be cancelled. 2020 was the year that a horrible virus called Covid-19 toked by surprise the whole Planet, governments not knowing what to do and how to react against this pandemic. Measures to protect everyone of us was decided and that, social distancing is essential and lockdown measures are considered the most effective against the spreading of Covid-19 bitch. Due to this all festivals and events, there were cancelled, and people were asked to stay at home and respect social distancing measures that were put in place by the government with the help of a special team created to serve and protect the people.</p>
+    </div>
+	<main class="container">
+	<div>
+	<h1>Content and Inspiration</h1>
+        </div>
+    </main>
+	<main class="container">
+<p>Apart from the GLOW Festival Photo that was made by photographers Nathan Ross and Sandra Garcia. All the website content belongs, researced and created by web developer Nico Raducanu 'Edinburgh College student', with the purpose of demonstrate website development skills for the Authoring A Website class with lecturer: Ruth.</p>
+<main class="container">
+<footer class="footer">      <!-- beginning of footer-->
+ <span class="text-muted">&copy; 2021 Developer: Nicolae Raducanu</span>
+</footer>
+ </main>
+</main>
+    </div>
+    </div>
+    </main>
+    </div>
+    </form>
+    </main>
+    </body>
+</html>

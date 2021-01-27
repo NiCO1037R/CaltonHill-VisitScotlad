@@ -1,0 +1,33 @@
+.btn {
+font-size: 25px
+}
+body {
+background-color:#BCE3FF;
+}
+.navbar
+{
+background-color:#16335E;
+}
+.bg-dark{
+background-color:#87CEFA!important;
+}
+.nav-brand
+{
+font-family:fantasy;
+font-size: 34px;
+}
+.navbar-expand{-sm|-md|-lg|-xl}
+h1 {
+  color:#16335E;
+    font-family:fantasy;
+}
+h3 {
+  color:#16335E;
+    font-family:fantasy;
+}
+p {
+  color:#16335E;
+}
+strong {
+	color:#16335E;
+}

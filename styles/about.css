@@ -1,0 +1,38 @@
+.btn {
+font-size: 65px
+}
+body {
+background-color:#BCE3FF;
+}
+.navbar
+{
+background-color:#16335E;
+}
+.bg-dark{
+background-color:#87CEFA!important;
+}
+.nav-brand
+{
+font-family:sans-serif;
+font-size: 34px;
+}
+.navbar-expand{-sm|-md|-lg|-xl}
+h1 {
+  color:#16335E;
+    font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  color:#191970;
+    font-family:fantasy;
+}
+p {
+  color:#191970;
+    font-family: "Times New Roman", Times, serif;
+}
+strong {
+	color:#16335E;
+    font-family: "Times New Roman", Times, serif;
+}
+ul {
+    
+}
